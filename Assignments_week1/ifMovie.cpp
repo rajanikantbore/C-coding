@@ -1,18 +1,20 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int ticketPrice = 400;
-    int ashokHasMoney = 300;
-
+    int ashokHasMoney;
+    cin>>ashokHasMoney;
     if (ashokHasMoney >= ticketPrice)
     {
-        cout<<"buy a ticket"<<endl;
-        cout<<"wathch the movie"<<endl;
+        cout << "buy a ticket" << endl;
+        cout << "wathch the movie" << endl;
     }
-    else{
-        cout<<"eat a biryani"<<endl;
+    else
+    {
+        cout << "eat a biryani" << endl;
     }
-    cout<<"go home";
+    cout << "go home";
     return 0;
 }

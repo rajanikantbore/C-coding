@@ -10,7 +10,7 @@ int main(){
     cout<<"Enter java points :"<<endl;
     cin>>java_points;
 
-    if (cpp_points >= 40 && java_points >= 40)
+    if (cpp_points >= 40 || java_points >= 40)
     {
         cout<<"Get certificate "<<endl;
     }
