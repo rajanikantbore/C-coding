@@ -42,6 +42,4 @@ int main()
 /*Note: Here is short explanation.
 - In line number 11- we are declaring isPrime is boolean variable and default setting is true.
 - In line number 15- we are checking, is number(user input number) is less than or equal to 1. The reason for checking is that in prime number's case less than 1 numbers are not prime.
-- Division of number itself and 1 is not considerd as a prime number. And after division if remainder are getting with 0 then its not prime number.
-- remainder with any natural number is called prime number.
 */
