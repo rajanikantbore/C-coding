@@ -14,7 +14,7 @@ int main()
 {
     do
     {
-        if (num % 2 == 0)
+        if (num % 2 == 0)  //even 
         {
             // cout << num << " "<<endl;
             evenSum = evenSum + num;
@@ -33,7 +33,7 @@ int main()
     // cout << oddSum<<endl;
 
     // cout<<countEven<<" ";
-    // cout<<countOdd<<" ";
+     //cout<<countOdd<<" ";
 
     int evenAverage = evenSum / countEven;
     int oddAverage = oddSum / countOdd;
